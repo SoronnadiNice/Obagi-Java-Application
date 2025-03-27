@@ -3,6 +3,10 @@ public class Operators{
 		// Assignment operator (=)
 		int num1 = 13;
 		int  num2 = 5;
+		
+		num1 += num2;
+		
+		
 		// Arithemetic operator (+,*,-,/,%)
 		int sum = num1 + num2;
 		
@@ -32,18 +36,18 @@ public class Operators{
 		System.out.printf("The difference between %d and %d is %d%n", num1,num2,difference);
 		System.out.printf("The quotient is %f%n",quotient);
 		System.out.printf("The remainder of the numbers is %d%n",remainder);
-		System.out.println("====================================");
+		System.out.println("==================================================================================================");
 		System.out.printf("Is %d < %d ? %b%n", num1,num2, isLessThan);
 		System.out.printf("Is %d > %d ? %b%n", num1,num2, isGreaterThan);
 		System.out.printf("Is %d >= %d ? %b%n", num1,num2, isGreaterThanOrEqualTo);
 		System.out.printf("Is %d <= %d ? %b%n", num1,num2, isLessThanOrEqualTo);
 		System.out.printf("Is %d == %d ? %b%n", num1,num2, isEqualTo);
 		System.out.printf("Is %d != %d ? %b%n", num1,num2, isNotEqualTo);
-		System.out.println("=====================================");
+		System.out.println("==================================================================================================");
 		System.out.printf("Is %d > %d && %d >= %d? %b%n",num1,num2,num1,num2,isAndOperator);
 		System.out.printf("Is %d == %d || %d >= %d? %b%n",num1,num2,num1,num2,isOrOperator);
 		System.out.printf("Is !(%d == %d || %d > %d)? %b%n",num1,num2,num1,num2,isNotOperator);
-		System.out.println("=================================");
+		System.out.println("==================================================================================================");
 		
 		
 
